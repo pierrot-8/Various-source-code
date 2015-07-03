@@ -2,13 +2,14 @@
 
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 int strLength(const char*s){
+
 	int num = 0;
 
-	while (*s++){
+	while (*s++)
+	{
 		num++;
 	}
 	return num;
